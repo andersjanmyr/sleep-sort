@@ -19,6 +19,14 @@ describe('sleepsort', function() {
             });
         });
     });
+    describe('with an unsorted two element array', function() {
+        it('calls the callback with a sorted two element array', function(done) {
+            var result = sleepsort([2, 1], function(result) {
+                result.should.eql([1, 2]);
+                done();
+            });
+        });
+    });
 
 });
 
