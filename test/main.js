@@ -9,5 +9,11 @@ describe('sleepsort', function() {
             result.should.eql([]);
         });
     });
+    describe('with an empty array argument', function() {
+        it('returns an empty array', function() {
+            var result = sleepsort([]);
+            result.should.eql([]);
+        });
+    });
 });
 
