@@ -3,5 +3,5 @@
 var sleepsort = require('../lib/main');
 
 var args = process.argv.slice(2);
-console.log(sleepsort(args));
+sleepsort(args, console.log);
 
