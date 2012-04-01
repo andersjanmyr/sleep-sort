@@ -1,0 +1,19 @@
+{
+  "author": "Anders Janmyr <anders@janmyr.com> (http://anders.janmyr.com)",
+  "name": "sleep-sort",
+  "description": "Implementation of the sleep-sort algorithm.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andersjanmyr/sleep-sort.git"
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "engines": {
+    "node": "~0.6.14"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
