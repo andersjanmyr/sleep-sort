@@ -2,7 +2,7 @@
   "author": "Anders Janmyr <anders@janmyr.com> (http://anders.janmyr.com)",
   "name": "sleep-sort",
   "description": "Implementation of the sleep-sort algorithm.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/andersjanmyr/sleep-sort.git"
