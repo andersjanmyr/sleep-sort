@@ -3,5 +3,10 @@
 var sleepsort = require('../lib/main');
 
 var args = process.argv.slice(2);
-sleepsort(args, console.log);
+
+function printArray(array) {
+  console.log(array.join(' '));
+}
+
+sleepsort(args, printArray);
 
