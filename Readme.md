@@ -8,9 +8,10 @@ When all tasks are done, the array is returned sorted.
 
 ## Installation
 
-    npm install sleep-sort
+    $ npm install sleep-sort
 
 ## Usage
 
-    sleep-sort 2 7 89 94 77 4 6 9 6 3
+    $ sleep-sort 2 7 89 94 77 4 6 9 6 3
+    3 2 4 6 6 9 7 77 89 94
 
