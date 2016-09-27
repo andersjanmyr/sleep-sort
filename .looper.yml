@@ -1,6 +1,5 @@
-language: node_js
-script:
-  - npm install
-  - echo shell commands
-  - npm version patch
-  - npm test
+language: workflow
+flows:
+  master:
+    - node: npm install
+    - node: npm test
