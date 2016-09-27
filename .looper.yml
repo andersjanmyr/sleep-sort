@@ -1,5 +1,8 @@
 language: workflow
+node:
+  - 6.5.0
 flows:
   master:
-    - node: npm install
-    - node: npm test
+    - npm install
+    - npm test
+
