@@ -7,13 +7,10 @@
     "type": "git",
     "url": "git://github.com/andersjanmyr/sleep-sort.git"
   },
-  "bin": { "sleep-sort": "./bin/sleep-sort" },
+  "bin": {"sleep-sort": "./bin/sleep-sort"},
   "main": "lib/main.js",
   "scripts": {
     "test": "mocha test/*.js"
-  },
-  "engines": {
-    "node": "~0.6.14"
   },
   "dependencies": {},
   "devDependencies": {
